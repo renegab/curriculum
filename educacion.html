@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta name="author" content="Rene Salas">
+<meta name="keywords" content="Curriculum, experiencia laboral, programacion, diseño web">
+<meta name="description" content="curriculum vitae, Rene Salas">
+<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+<img 
+    src="img/logo.svg" 
+    alt="logotipo"
+    width="200px" />
+    <h1> Curriculum Vitae</h1>
+    <h2>René Gabriel Salas Aguilar</h2>
+    <h3>Nacido en La Paz - Bolivia</h3>
+    <h3> 14 de junio de 1975</h3>
+
+    <nav>
+    <ul>
+    <li>
+        <a href="index.html">Inicio</a>
+    </li>
+    <li>
+        <a href="educacion.html">Educacion</a>
+    </li>
+    <li>
+        <a href="experiencia.html">Experiencia</a>
+    </li>
+    </ul>
+    </nav>
+
+    <h4>Educación</h4>
+    <table border="1">
+    <thead>
+        <tr>
+            <th>
+            Año
+            </th>
+            
+            <th>
+            Institución
+            </th>
+            <th>
+            Lugar
+            </th>
+            <th>
+            Culmino?
+            </th>
+        </tr>
+
+    </thead>
+    <tbody>
+       <tr>
+       <td>
+            2002
+       </td>
+       <td>
+            Universidad Católica Boliviana
+       </td>
+       <td>
+            La Paz - Bolivia
+       </td>
+       <td>
+            Si
+       </td>
+       </tr> 
+    </tbody>
+
+    </table>
+    <p><b>Agregar estudios</b></p>
+    <form name="agregar" method="post" action="educacion.html">
+        Año:<select name="anio">
+                <option>2012</option>
+                <option>2013</option>
+                <option>2014</option>
+                <option>2015</option>
+                <option>2016</option>
+                <option>2017</option>
+            </select>
+            <br>
+        Institucion: <input type="text" name="institucion" required>
+        <br/>
+        Lugar:<input type="text" name="lugar" required>
+        <br/>
+        culmino?: <input type="radio" name="culmino" checked>Si
+                    <input type="radio" name="culmino">No
+                    <br/>
+        <input type="submit" value="enviar">
+
+    </form>
+     <footer>
+     Email:rsalas60@hotmil.com  telf: 591-73229944  dirección: av. Landaeta #693  Facebook: Rene Gabriel Salas Aguilar
+     </footer>
+</body>
+</html>

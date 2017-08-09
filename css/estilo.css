@@ -1,0 +1,14 @@
+nav{
+	background:#aaf;
+}
+h1{
+	text-align:center;
+	font-family: Arial, 'times new roman';
+}
+footer{
+	background-color: #999;
+	height: 200px;
+	text-align: center;
+	padding:20px;
+	font-size:1.2em;
+}
