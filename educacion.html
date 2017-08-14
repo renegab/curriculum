@@ -34,8 +34,7 @@
 
     <h4>Educación</h4>
     <table border="1">
-    <thead>
-        <tr>
+      <tr>
             <th>
             Año
             </th>
@@ -51,8 +50,7 @@
             </th>
         </tr>
 
-    </thead>
-    <tbody>
+<!-- añadimos otros estudios-->
        <tr>
        <td>
             2002
@@ -67,32 +65,87 @@
             Si
        </td>
        </tr> 
-    </tbody>
-
+       <tr>
+        <td>
+            2006
+        </td>
+        <td>
+            Univesidad Loyola
+        </td>
+        <td>
+            La Paz -Bolivia
+        </td>
+        <td>
+            Si
+        </td>
+        <tr>
+        <tr>
+        <td>
+            2017
+        </td>
+        <td>
+            Next U
+        </td>
+        <td>
+            www.nextu.com
+        </td>
+        <td>
+            Si
+        </td>
+        <tr>
     </table>
     <p><b>Agregar estudios</b></p>
     <form name="agregar" method="post" action="educacion.html">
-        Año:<select name="anio">
-                <option>2012</option>
-                <option>2013</option>
-                <option>2014</option>
-                <option>2015</option>
-                <option>2016</option>
-                <option>2017</option>
-            </select>
-            <br>
-        Institucion: <input type="text" name="institucion" required>
-        <br/>
-        Lugar:<input type="text" name="lugar" required>
-        <br/>
-        culmino?: <input type="radio" name="culmino" checked>Si
+        <table>
+            <tr>
+                <td>
+                    Año:
+                </td>
+                <td>
+                    <select name="anio">
+                        <option>2012</option>
+                        <option>2013</option>
+                        <option>2014</option>
+                        <option>2015</option>
+                        <option>2016</option>
+                        <option>2017</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Institucion: 
+                </td>
+                <td>
+                    <input type="text" name="institucion" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Lugar:
+                </td>
+                <td>
+                    <textarea  name="lugar" cols="40" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    culmino?: 
+                </td>
+                <td>    
+                    <input type="radio" name="culmino" checked>Si
                     <input type="radio" name="culmino">No
-                    <br/>
-        <input type="submit" value="enviar">
-
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="enviar">
+                </td>
+            </tr>
+        </table>
     </form>
      <footer>
-     Email:rsalas60@hotmil.com  telf: 591-73229944  dirección: av. Landaeta #693  Facebook: Rene Gabriel Salas Aguilar
+     Email:rsalas60@hotmail.com  telf: 591-73229944  dirección: av. Landaeta #693  Facebook: Rene Gabriel Salas Aguilar
      </footer>
 </body>
 </html>
